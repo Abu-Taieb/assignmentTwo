@@ -221,9 +221,7 @@
     width: 100%;
 }
 
-.future_big_button {
-    text-align: center;
-}
+
 
 .feature_wrap {
     position: relative;
@@ -238,6 +236,10 @@
     position: absolute;
     bottom: 65px;
     left: 48%;
+}
+
+.future_big_button {
+    text-align: center;
 }
 
 .feature_span {
@@ -318,7 +320,7 @@
 /* <!-- === Some Facts End === --> */
 
 /* <!-- === Sponsors Start === --> */
-.sponsore_content{
+.sponsore_content {
     text-align: center;
     padding-top: 150px;
     width: 600px;
@@ -346,7 +348,8 @@
     justify-content: space-evenly;
     padding: 50px 0;
 }
-.sponsor_icon img{
+
+.sponsor_icon img {
     height: 30px;
 }
 
@@ -356,16 +359,18 @@
 
 /* <!-- === Testimonial Start === --> */
 
-.testimonial_heading{
+.testimonial_heading {
     text-align: center;
     padding: 50px 0;
     margin-top: 100px;
 }
-.testimonial_heading p{
+
+.testimonial_heading p {
     width: 550px;
     text-align: center;
     margin: auto;
 }
+
 .testimonial_container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -387,13 +392,16 @@
     height: 80px;
     margin: 0 20px 10px 0;
 }
+
 .test_item_image h5 {
     color: #424242;
 }
-.test_item_description p{
+
+.test_item_description p {
     color: #727272;
 }
-.test_item_description i{
+
+.test_item_description i {
     color: #FF900E;
 }
 
@@ -497,7 +505,14 @@
     }
 
     .feature_wrap button {
-        bottom: -200px;
+        width: 250px;
+        height: 150px;
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    .feature_wrap button {
+        bottom: -150px;
         left: 20%;
     }
 
@@ -511,6 +526,7 @@
 
     .facts_container {
         text-align: center;
+        width: 100%;
     }
 
     .facts_container p {
@@ -540,17 +556,26 @@
     .sponsor_icon img {
         width: 150px;
         height: 30px;
-
     }
 
-  /* == Testimonial ==  */
+    /* == Testimonial ==  */
 
-  .testimonial_container {
-    grid-template-columns: repeat(1, 1fr);
-    justify-content: center;
-    padding: 50px 20px;
-    column-gap: 0;
-    row-gap: 20px;
-}
+    .testimonial_container {
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        padding: 50px 20px;
+        column-gap: 0;
+        row-gap: 20px;
+    }
+
+    .testimonial_heading {
+        width: 100%;
+    }
+
+    .testimonial_heading p {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
 
 }
